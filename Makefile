@@ -24,7 +24,7 @@
 
 first:
 	@if test ! -f src/auto/config.mk; then \
-		cp src/config.mk.dist src/auto/config.mk; \
+		cp src/config.mk.dist src/auto/config.mk; 
 	fi
 	@echo "Starting make in the src directory."
 	@echo "If there are problems, cd to the src directory and run make there"
